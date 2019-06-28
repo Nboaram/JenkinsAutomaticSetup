@@ -3,7 +3,7 @@ Description=Jenkins
 
 [Service]
 User=jenkins
-WorkingDirectoory=/home/jenkins
+WorkingDirectory=/home/jenkins
 ExecStart=/usr/bin/java -jar /home/jenkins/jenkins.war
 
 [Install]
